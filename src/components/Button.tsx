@@ -4,7 +4,11 @@ type ButtonProps = {
 };
 
 function Button({ children, className }: ButtonProps) {
-  return <button className={className}>{children}</button>;
+  return (
+    <a href="#memberships" className={className}>
+      {children}
+    </a>
+  );
 }
 
 export default Button;

@@ -31,14 +31,13 @@ function Header() {
             </p>
             <Button className="font-martian text-14 md:text-18 rounded-8 bg-light-salmon-50 btn-header-hover mb-250 flex w-full items-center justify-center gap-4 border-2 border-neutral-900 px-150 py-200 font-semibold text-neutral-900 md:w-fit">
               REVIEW MEMBERSHIP OPTIONS
-              <DownArrow aria-hidden="true" />
+              <DownArrow aria-hidden="true" focusable="false" />
             </Button>
             <CommunityBadge />
           </div>
           <picture>
             <source media="(min-width: 1200px)" srcSet={HeaderDesktopImage} />
             <source media="(min-width: 768px)" srcSet={HeaderTabletImage} />
-            <source media="(max-width: 767px)" srcSet={HeaderMobileImage} />
             <img
               src={HeaderMobileImage}
               alt="tech book club members gathered around books and laptops, engaged in discussion"

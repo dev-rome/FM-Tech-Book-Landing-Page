@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className="relative z-20 overflow-hidden bg-neutral-100 bg-[url('/images/pattern-light-bg.svg')] bg-cover bg-center bg-no-repeat px-200 pt-300 pb-1000 md:px-400">
       <div className="absolute -right-112.5 -bottom-100.5 -z-10 hidden md:block">
-        <img src={PatternGlow} alt="pattern glow" aria-hidden="true" />
+        <img src={PatternGlow} alt="" aria-hidden="true" />
       </div>
       <div className="mx-auto max-w-292.5">
         <img
@@ -31,7 +31,7 @@ function Header() {
             </p>
             <Button className="font-martian text-14 md:text-18 rounded-8 bg-light-salmon-50 btn-header-hover mb-250 flex w-full items-center justify-center gap-4 border-2 border-neutral-900 px-150 py-200 font-semibold text-neutral-900 md:w-fit">
               REVIEW MEMBERSHIP OPTIONS
-              <DownArrow aria-hidden="true" focusable="false" />
+              <DownArrow focusable="false" />
             </Button>
             <CommunityBadge />
           </div>

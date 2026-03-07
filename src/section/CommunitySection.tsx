@@ -15,9 +15,9 @@ function CommunitySection() {
               club
               <img
                 src={PatternCircle}
-                alt="Pattern circle"
-                className="absolute inset-0 -z-10 h-full w-full object-contain"
+                alt=""
                 aria-hidden="true"
+                className="absolute inset-0 -z-10 h-full w-full object-contain"
               />
             </span>
           </h2>
@@ -30,7 +30,10 @@ function CommunitySection() {
         </div>
         <div className="relative xl:max-w-140">
           <div className="-xl:bottom-32 absolute hidden md:right-8 md:bottom-12 md:block xl:-left-20">
-            <img src={TechLogos} alt="Tech logos" aria-hidden="true" />
+            <img
+              src={TechLogos}
+              alt="Logos of various programming languages and technologies"
+            />
           </div>
           <picture>
             <source

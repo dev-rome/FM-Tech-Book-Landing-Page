@@ -16,7 +16,7 @@ function AboutSection() {
             {ABOUT_LIST_ITEMS.map(({ id, text }) => (
               <li key={id} className="flex items-center gap-4">
                 <span>
-                  <Check aria-hidden="true" />
+                  <Check />
                 </span>
                 <p className="text-20 font-inter text-neutral-700">{text}</p>
               </li>

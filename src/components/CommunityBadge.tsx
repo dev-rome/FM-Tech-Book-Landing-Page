@@ -8,7 +8,13 @@ function CommunityBadge() {
       <div className="flex flex-col gap-1">
         <div className="flex">
           {Array.from({ length: 5 }).map((_, i) => (
-            <img key={i} src={Star} alt="Star icon" className="h-6 w-6" />
+            <img
+              key={i}
+              src={Star}
+              alt=""
+              aria-hidden="true"
+              className="h-6 w-6"
+            />
           ))}
         </div>
         <p className="font-martian text-14 text-neutral-700">

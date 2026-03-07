@@ -6,6 +6,7 @@ function Check() {
       height="28"
       fill="none"
       viewBox="0 0 28 28"
+      aria-hidden="true"
     >
       <rect
         width="26"

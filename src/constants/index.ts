@@ -16,3 +16,22 @@ export const ABOUT_LIST_ITEMS = [
     text: "Author Q&A sessions with tech thought leaders",
   },
 ];
+
+export const STEPS_LIST_ITEMS = [
+  {
+    id: 1,
+    text: "Choose your membership tier",
+  },
+  {
+    id: 2,
+    text: "Get your monthly book selection",
+  },
+  {
+    id: 3,
+    text: "Join our discussion forums",
+  },
+  {
+    id: 4,
+    text: "Attend exclusive meetups",
+  },
+];

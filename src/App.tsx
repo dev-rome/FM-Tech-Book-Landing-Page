@@ -1,6 +1,7 @@
 import Header from "./section/Header";
 import AboutSection from "./section/AboutSection";
 import CommunitySection from "./section/CommunitySection";
+import Steps from "./section/Steps";
 
 function App() {
   return (
@@ -11,6 +12,11 @@ function App() {
           <div className="mx-auto flex max-w-292.5 flex-col gap-16 md:gap-20 xl:gap-32">
             <AboutSection />
             <CommunitySection />
+          </div>
+        </section>
+        <section className="px-200 pb-800 md:px-400 md:pb-1000 xl:pb-1200">
+          <div className="mx-auto max-w-292.5">
+            <Steps />
           </div>
         </section>
       </main>

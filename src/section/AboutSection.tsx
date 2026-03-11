@@ -1,4 +1,4 @@
-import Check from "../components/Check";
+import Check from "../svg/Check";
 import AboutMobileImage from "/images/image-read-together-mobile.webp";
 import AboutTabletImage from "/images/image-read-together-tablet.webp";
 import AboutDesktopImage from "/images/image-read-together-desktop.webp";

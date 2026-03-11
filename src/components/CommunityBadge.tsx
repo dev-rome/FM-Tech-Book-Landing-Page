@@ -1,5 +1,5 @@
 import Avatars from "/images/image-avatars.webp";
-import Star from "/images/icon-star.svg";
+import Star from "../svg/Star";
 
 function CommunityBadge() {
   return (
@@ -8,11 +8,8 @@ function CommunityBadge() {
       <div className="flex flex-col gap-1">
         <div className="flex">
           {Array.from({ length: 5 }).map((_, i) => (
-            <img
+            <Star
               key={i}
-              src={Star}
-              alt=""
-              aria-hidden="true"
               className="h-6 w-6"
             />
           ))}

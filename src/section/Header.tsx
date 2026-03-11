@@ -3,13 +3,13 @@ import PatternGlow from "/images/pattern-glow.svg";
 import HeaderMobileImage from "/images/image-hero-mobile.webp";
 import HeaderTabletImage from "/images/image-hero-tablet.webp";
 import HeaderDesktopImage from "/images/image-hero-desktop.webp";
-import DownArrow from "../components/DownArrow";
+import DownArrow from "../svg/DownArrow";
 import Button from "../components/Button";
 import CommunityBadge from "../components/CommunityBadge";
 
 function Header() {
   return (
-    <header className="relative z-20 overflow-hidden bg-neutral-100 bg-[url('/images/pattern-light-bg.svg')] bg-cover bg-center bg-no-repeat px-200 pt-300 pb-1000 md:px-400">
+    <div className="relative z-20 overflow-hidden bg-neutral-100 bg-[url('/images/pattern-light-bg.svg')] bg-cover bg-center bg-no-repeat px-200 pt-300 pb-1000 md:px-400">
       <div className="absolute -right-112.5 -bottom-100.5 -z-10 hidden md:block">
         <img src={PatternGlow} alt="" aria-hidden="true" />
       </div>
@@ -46,7 +46,7 @@ function Header() {
           </picture>
         </div>
       </div>
-    </header>
+    </div>
   );
 }
 

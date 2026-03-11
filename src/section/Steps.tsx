@@ -1,5 +1,5 @@
 import PatternGlow from "/images/pattern-glow.svg";
-import PatternArrow from "/images/pattern-arrow.svg";
+import PatternArrow from "../svg/PatternArrow";
 import { STEPS_LIST_ITEMS } from "../constants";
 
 function Steps() {
@@ -20,11 +20,7 @@ function Steps() {
                   {id}
                 </span>
                 {index !== STEPS_LIST_ITEMS.length - 1 && (
-                  <img
-                    src={PatternArrow}
-                    alt="arrow pointing to next step"
-                    className="hidden xl:block"
-                  />
+                  <PatternArrow className="hidden xl:block" />
                 )}
               </div>
               <p className="font-martian md:text-18 leading-[130%] font-semibold -tracking-[1px] text-neutral-900">

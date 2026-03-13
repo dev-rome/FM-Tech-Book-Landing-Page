@@ -33,7 +33,7 @@ function Header() {
               REVIEW MEMBERSHIP OPTIONS
               <DownArrow focusable="false" />
             </Button>
-            <CommunityBadge />
+            <CommunityBadge className="text-neutral-700" />
           </div>
           <picture>
             <source media="(min-width: 1200px)" srcSet={HeaderDesktopImage} />

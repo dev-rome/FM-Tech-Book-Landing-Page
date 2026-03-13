@@ -14,7 +14,7 @@ function Check() {
         x="1"
         y="1"
         stroke="#385159"
-        stroke-width="2"
+        strokeWidth="2"
         rx="3"
       />
       <path

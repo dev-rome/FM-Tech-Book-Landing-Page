@@ -11,10 +11,10 @@ function PatternArrow(props: React.SVGProps<SVGSVGElement>) {
     >
       <g
         stroke="#FEA36F"
-        stroke-linecap="round"
-        stroke-miterlimit="10"
-        stroke-width="1.553"
-        clip-path="url(#a)"
+        strokeLinecap="round"
+        strokeMiterlimit="10"
+        strokeWidth="1.553"
+        clipPath="url(#a)"
       >
         <path d="M2.545 21.82c10.136-6.576 37.73-17.132 67.013-6.751" />
         <path d="M66.105 21.638a56.898 56.898 0 0 1 6.17-1.052c.488-.058 5.67-.495 5.561-.808-.519-1.498-1.718-2.888-2.495-4.266-1.59-2.817-2.982-5.61-3.806-8.737-.412-1.565-.652-3.15-.995-4.713" />

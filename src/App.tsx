@@ -2,11 +2,14 @@ import Header from "./section/Header";
 import AboutSection from "./section/AboutSection";
 import CommunitySection from "./section/CommunitySection";
 import Steps from "./section/Steps";
+import Footer from "./section/Footer";
 
 function App() {
   return (
     <>
-      <Header />
+      <header>
+        <Header />
+      </header>
       <main>
         <section className="px-200 py-800 md:px-400 md:py-1000 xl:py-1200">
           <div className="mx-auto flex max-w-292.5 flex-col gap-16 md:gap-20 xl:gap-32">
@@ -20,6 +23,9 @@ function App() {
           </div>
         </section>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

@@ -77,4 +77,12 @@
       var(--color-light-salmon-50) 100%
     );
   }
+
+  .btn-footer:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--color-neutral-700) 0%,
+      var(--color-neutral-900) 100%
+    );
+  }
 }

@@ -4,7 +4,7 @@ import Linkedin from "../svg/Linkedin";
 import CommunityBadge from "../components/CommunityBadge";
 import Button from "../components/Button";
 
-const Footer = () => {
+function Footer() {
   return (
     <div className="bg-neutral-900 bg-[url('/images/pattern-dark-bg.svg')] bg-cover bg-center bg-no-repeat px-200 pt-600 md:px-400 md:pt-800 lg:pt-1000">
       <div className="mb-600 flex w-full flex-col items-center">
@@ -33,6 +33,6 @@ const Footer = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Footer;

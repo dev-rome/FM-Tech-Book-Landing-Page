@@ -6,6 +6,7 @@ function Bluesky() {
       height="23"
       fill="none"
       viewBox="0 0 22 23"
+      aria-label="Bluesky"
     >
       <path
         fill="#fff"

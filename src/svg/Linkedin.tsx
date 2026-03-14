@@ -6,6 +6,7 @@ function Linkedin() {
       height="19"
       fill="none"
       viewBox="0 0 18 19"
+      aria-label="Linkedin"
     >
       <path
         fill="#fff"

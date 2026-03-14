@@ -19,7 +19,7 @@ function Footer() {
           <CommunityBadge className="text-neutral-0" />
         </div>
       </div>
-      <div className="mx-auto xl:max-w-292.5">
+      <div className="mx-auto lg:max-w-292.5">
         <hr className="border-neutral-700" />
         <div className="flex flex-col items-center gap-4 py-300 md:flex-row md:justify-between">
           <p className="font-martian text-14 text-neutral-0">

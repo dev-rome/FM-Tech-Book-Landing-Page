@@ -6,7 +6,7 @@ function CommunityBadge({ className }: { className?: string }) {
     <div className={`flex items-center gap-3 ${className ?? ""}`}>
       <img src={Avatars} alt="Community avatars" className="h-10 w-28" />
       <div className="flex flex-col gap-1">
-        <div className="flex">
+        <div className="flex" role="img" aria-label="5 out of 5 stars">
           {Array.from({ length: 5 }).map((_, i) => (
             <Star key={i} className="h-6 w-6" />
           ))}

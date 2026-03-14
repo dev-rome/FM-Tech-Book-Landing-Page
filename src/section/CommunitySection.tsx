@@ -8,7 +8,7 @@ function CommunitySection() {
   return (
     <div className="relative">
       <div className="flex flex-col gap-10 xl:flex-row xl:items-center xl:gap-20">
-        <div className="flex flex-2 flex-col gap-6">
+        <div className="flex flex-col gap-6 xl:flex-1">
           <h2 className="font-martian text-34 md:text-50 leading-[130%] font-semibold tracking-[-2px] text-neutral-900 md:max-w-126 lg:max-w-full xl:max-w-none">
             Not your average book{" "}
             <span className="relative inline-flex">
@@ -28,8 +28,8 @@ function CommunitySection() {
             practical applications.
           </p>
         </div>
-        <div className="relative xl:max-w-140">
-          <div className="-xl:bottom-32 absolute hidden md:right-8 md:bottom-12 md:block xl:-left-20">
+        <div className="relative xl:max-w-140 xl:shrink-0">
+          <div className="absolute hidden md:right-8 md:bottom-12 md:block xl:bottom-8 xl:-left-20">
             <img
               src={TechLogos}
               alt="Logos of various programming languages and technologies"

@@ -6,7 +6,9 @@ function Bluesky() {
       height="23"
       fill="none"
       viewBox="0 0 22 23"
+      role="img"
       aria-label="Bluesky"
+      className="lg:cursor-pointer lg:transition-opacity lg:hover:opacity-60"
     >
       <path
         fill="#fff"

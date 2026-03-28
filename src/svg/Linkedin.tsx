@@ -6,7 +6,9 @@ function Linkedin() {
       height="19"
       fill="none"
       viewBox="0 0 18 19"
+      role="img"
       aria-label="Linkedin"
+      className="lg:cursor-pointer lg:transition-opacity lg:hover:opacity-60"
     >
       <path
         fill="#fff"

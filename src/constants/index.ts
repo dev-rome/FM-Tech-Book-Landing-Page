@@ -54,7 +54,6 @@ export const MEMBERSHIP_PLANS: MembershipPlan[] = [
     priceLabel: "/month",
     features: ["1 book/month", "Online forums"],
     ctaLabel: "Subscribe Now",
-    highlighted: false,
   },
   {
     id: "pro",
@@ -71,6 +70,5 @@ export const MEMBERSHIP_PLANS: MembershipPlan[] = [
     price: "Custom",
     features: ["Team access", "Private sessions"],
     ctaLabel: "Talk to Us",
-    highlighted: false,
   },
 ];

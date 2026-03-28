@@ -69,11 +69,16 @@
   -webkit-text-fill-color: transparent;
 }
 
-blockquote p::before { content: "\201C"; }
-blockquote p::after  { content: "\201D"; }
+blockquote p::before {
+  content: "\201C";
+}
+blockquote p::after {
+  content: "\201D";
+}
 
 @media (hover: hover) {
-  .btn-header-hover:hover {
+  .btn-header-hover:hover,
+  .btn-membership-card-hover:hover {
     background-image: linear-gradient(
       to right,
       var(--color-light-salmon-100) 0%,

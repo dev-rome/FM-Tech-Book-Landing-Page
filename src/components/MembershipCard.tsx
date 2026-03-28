@@ -59,7 +59,7 @@ function MembershipCard({ plan }: MembershipCardProps) {
       </ul>
       <Button
         ariaLabel={`${plan.ctaLabel} for ${plan.name}`}
-        className={buttonStyles}
+        className={`btn-membership-card-hover ${buttonStyles}`}
       >
         {plan.ctaLabel}
       </Button>

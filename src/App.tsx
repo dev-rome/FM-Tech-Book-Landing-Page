@@ -2,6 +2,7 @@ import Header from "./section/Header";
 import AboutSection from "./section/AboutSection";
 import CommunitySection from "./section/CommunitySection";
 import Steps from "./section/Steps";
+import Membership from "./section/Membership";
 import Testimonial from "./section/Testimonial";
 import Footer from "./section/Footer";
 
@@ -21,6 +22,11 @@ function App() {
         <section className="px-200 pb-800 md:px-400 md:pb-1000 xl:pb-1200">
           <div className="mx-auto max-w-292.5">
             <Steps />
+          </div>
+        </section>
+        <section className="px-200 pb-800 md:px-400 md:pb-1000 xl:pb-1200">
+          <div className="mx-auto max-w-[970px]">
+            <Membership />
           </div>
         </section>
         <section className="px-200 pb-800 md:px-400 md:pb-1000 xl:pb-1200">

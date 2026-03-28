@@ -35,3 +35,42 @@ export const STEPS_LIST_ITEMS = [
     text: "Attend exclusive meetups",
   },
 ];
+
+export type MembershipPlan = {
+  id: string;
+  name: string;
+  price: number | string;
+  priceLabel?: string;
+  features: string[];
+  ctaLabel: string;
+  highlighted?: boolean;
+};
+
+export const MEMBERSHIP_PLANS: MembershipPlan[] = [
+  {
+    id: "starter",
+    name: "Starter",
+    price: 19,
+    priceLabel: "/month",
+    features: ["1 book/month", "Online forums"],
+    ctaLabel: "Subscribe Now",
+    highlighted: false,
+  },
+  {
+    id: "pro",
+    name: "Pro",
+    price: 29,
+    priceLabel: "/month",
+    features: ["2 books/month", "Virtual meetups"],
+    ctaLabel: "Subscribe Now",
+    highlighted: true,
+  },
+  {
+    id: "enterprise",
+    name: "Enterprise",
+    price: "Custom",
+    features: ["Team access", "Private sessions"],
+    ctaLabel: "Talk to Us",
+    highlighted: false,
+  },
+];

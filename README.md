@@ -1,73 +1,122 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Tech Book Club Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A solution to the [Tech Book Club Landing Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tech-book-club-landing-page-fZQidjHU73).
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Author](#author)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
 
-## Expanding the ESLint configuration
+### The Challenge
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Users should be able to:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Screenshot
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+![Tech Book Club Landing Page](./screenshot.jpg)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+---
+
+## Tech Stack
+
+- **React 19** — component-based UI
+- **TypeScript** — type safety across components and constants
+- **Tailwind CSS v4** — utility-first styling with a custom design token theme
+- **Vite** — fast dev server and build tool
+- **Fontsource** — self-hosted Martian Mono and Inter fonts
+- **ESLint + Prettier** — linting and formatting
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/         # Reusable UI components
+│   ├── Button.tsx
+│   ├── CommunityBadge.tsx
+│   └── MembershipCard.tsx
+├── section/            # Page sections
+│   ├── Header.tsx
+│   ├── AboutSection.tsx
+│   ├── CommunitySection.tsx
+│   ├── Steps.tsx
+│   ├── Membership.tsx
+│   ├── Testimonial.tsx
+│   └── Footer.tsx
+├── svg/                # SVG icon components
+│   ├── Check.tsx
+│   ├── Star.tsx
+│   ├── UpArrow.tsx
+│   ├── DownArrow.tsx
+│   ├── PatternArrow.tsx
+│   ├── Bluesky.tsx
+│   └── Linkedin.tsx
+├── constants/
+│   └── index.ts        # Static data and TypeScript types
+├── App.tsx
+├── main.tsx
+└── index.css           # Tailwind config and custom design tokens
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Install dependencies
+
+```bash
+npm install
 ```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Features
+
+- Fully responsive layout — mobile, tablet, and desktop
+- Accessible markup with semantic HTML, ARIA labels, and screen reader support
+- Membership section with three plan tiers (Starter, Pro, Enterprise)
+- Decorative pattern glow on the highlighted membership card
+- Dynamic copyright year in the footer
+- Self-hosted fonts via Fontsource (no external requests)
+
+---
+
+## Author
+
+- Frontend Mentor — [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHub — [@yourusername](https://github.com/yourusername)

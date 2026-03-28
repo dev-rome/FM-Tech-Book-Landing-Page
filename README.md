@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Tech Book Club Landing Page](./screenshot.jpg)
+![Tech Book Club Landing Page](./preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-with-react-typescript-and-tailwind-css-CwdZsl9wf8](https://www.frontendmentor.io/solutions/responsive-landing-page-with-react-typescript-and-tailwind-css-CwdZsl9wf8)
+- Live Site URL: [https://startling-moonbeam-dca236.netlify.app/](https://startling-moonbeam-dca236.netlify.app/)
 
 ---
 
@@ -118,5 +118,7 @@ npm run preview
 
 ## Author
 
-- Frontend Mentor — [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- GitHub — [@yourusername](https://github.com/yourusername)
+- Frontend Mentor — [@dev-rome](https://www.frontendmentor.io/profile/dev-rome)
+- GitHub — [@dev-rome](https://github.com/dev-rome)
+- LinkedIn — [@dev-rome](https://www.linkedin.com/in/jerome-haynes/)
+- Twitter — [@dev-rome](https://x.com/rome_dev)

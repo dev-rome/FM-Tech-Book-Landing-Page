@@ -15,8 +15,8 @@ function Membership() {
         Membership options
       </h2>
       <div className="flex flex-col gap-300 md:flex-row md:flex-wrap lg:flex-nowrap lg:items-center lg:gap-300">
-        {MEMBERSHIP_PLANS.map((plan) => (
-          <MembershipCard key={plan.id} plan={plan} />
+        {MEMBERSHIP_PLANS.map(({ id, ...rest }) => (
+          <MembershipCard key={id} plan={{ id, ...rest }} />
         ))}
       </div>
     </section>
